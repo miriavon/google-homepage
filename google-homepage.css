@@ -1,5 +1,4 @@
 ul {
-    list-style-type: none;
     margin: 10px;
     padding: 10px;
   }
@@ -9,11 +8,12 @@ li {
     font-family: Arial;
     font-size: small;
     color: rgb(107, 106, 106);
-    text-decoration: none;
 }
-
+.topnav-right {
+    float: right;
+}
 #searcharea {
-    margin: 220px auto;
+    margin: 180px auto;
 
 }
 .google-logo{
@@ -26,11 +26,13 @@ li {
     padding: 30px;
     
 }
+
 #text-box {
-    height: 50px;
+    height: 45px;
     border-radius: 30px;
     font-size: medium;
-    
+    border: 1px solid rgb(230, 230, 230);
+    width: 35%;
 }
 button {
     padding: 10px;
@@ -44,3 +46,13 @@ button {
     padding-top: 30px;
 }
 
+footer {
+    background-color: rgb(245, 243, 243);
+    position: absolute;
+    bottom: 0;
+    width: 99.45%;
+
+}
+.bottomnav-right {
+    float: right !important;
+}
