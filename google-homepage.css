@@ -1,3 +1,16 @@
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+  }
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    font-family: Arial;
+    font-size: small;
+    color: rgb(107, 106, 106);
+    text-decoration: none;
+}
 
 #searcharea {
     margin: 220px auto;
