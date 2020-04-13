@@ -3,20 +3,27 @@
     <head>
         <link rel="stylesheet" href="google-homepage.css">
     </head>
-    <ul>
-        <li><a href="https://about.google/" style="text-decoration: none; color: rgb(107, 106, 106)">About</a></li>
-        <li><a href="https://store.google.com/" style="text-decoration: none; color: rgb(107, 106, 106)">Store</a></li>
-        <div class="topnav-right">
-            <li><a href="https://mail.google.com" style="text-decoration: none; color: rgb(107, 106, 106);">Gmail</a></li>
-            <li><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl" style="text-decoration: none; color: rgb(107, 106, 106)">Images</a></li>
-        </div>
-    </ul>
+    <header>
+        <ul>
+            <li><a href="https://about.google/" style="text-decoration: none; color: rgb(107, 106, 106)">About</a></li>
+            <li><a href="https://store.google.com/" style="text-decoration: none; color: rgb(107, 106, 106)">Store</a></li>
+            <div class="topnav-right">
+                <li><a href="https://mail.google.com" style="text-decoration: none; color: rgb(107, 106, 106);">Gmail</a></li>
+                <li><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl" style="text-decoration: none; color: rgb(107, 106, 106)">Images</a></li>
+                <li><a id="apps" href="#" role="button"></a></li>
+                <li><button>Sign In</button></li>
+            </div>
+        </ul>
+    </header>
     <body>
         <div id="searcharea">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" class="google-logo">
             <div id="search-box">
                 <form action="/search">
-                    <input type="text" id="text-box" size="80pt">
+                    <div id="input-area">
+                        <input type="text" id="text-box" size="80pt">
+                        <a id="voice" href="#" role="button"></a>
+                    </div>
                     <div class="buttons">
                         <button type="button">Google Search</button>
                         <button type="button">I'm Feeling Lucky</button>

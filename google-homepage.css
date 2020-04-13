@@ -9,6 +9,19 @@ li {
     font-size: small;
     color: rgb(107, 106, 106);
 }
+header button {
+    background-color: royalblue;
+}
+#apps {
+    background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    opacity: .55;
+    vertical-align: middle; 
+    background-position: -132px -38px;
+    background-size: 528px 68px;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
 .topnav-right {
     float: right;
 }
@@ -24,15 +37,34 @@ li {
 #search-box{
     text-align: center;
     padding: 30px;
-    
 }
-
+#input-area {
+    display: flex;
+    justify-content: center;
+    position:relative;
+}
 #text-box {
     height: 45px;
     border-radius: 30px;
     font-size: medium;
     border: 1px solid rgb(230, 230, 230);
-    width: 35%;
+    width: 40%;
+    background-image: url('searchicon.png');
+    background-position: 10px 8px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+#text-box:hover {
+    border: 3px solid rgb(230, 230, 230)
+}
+#voice {
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-size: 32px;
+    height: 32px;
+    width: 32px;
+    position: relative;
+    top: 9px;
+    right: 45px;
 }
 button {
     padding: 10px;
@@ -45,7 +77,13 @@ button {
 .buttons {
     padding-top: 30px;
 }
-
+header button {
+    background-color: royalblue;
+    color:white;
+    font-weight: bold;
+    font-size: 9pt;
+    border-radius: 2px;
+}
 footer {
     background-color: rgb(245, 243, 243);
     position: absolute;
